@@ -1,0 +1,34 @@
+Erstellen Sie ein Gradle-Projekt, das die Klasse SumCalculator mit der Methode int sum(int n) enthält. Diese Methode sollte die Summe der Zahlen von 1 bis einschließlich n zurückgeben.
+
+Zum Beispiel sollte der Aufruf von sum(3) 6 (1 + 2 + 3) zurückgeben.
+
+Schreiben Sie eine Testklasse für SumCalculator, in der Sie das folgende Verhalten der Methode sum() testen (jedes Element in der Liste ist ein separater Test):
+
+ein Aufruf von sum(1) gibt 1 zurück
+der Aufruf von sum(3) gibt 6 zurück
+der Aufruf von sum(0) führt zu einer IllegalArgumentException
+Verwenden Sie die mit @BeforeEach annotierte Methode, um vor jedem Test ein Objekt der Klasse SumCalculator zu konstruieren.
+
+Stellen Sie sicher, dass Ihr Code vom Terminal aus ausgeführt wird, indem Sie den Befehl gradle test aufrufen.
+
+Das Ergebnis Ihrer Hausaufgabe ist ein Github-Repository mit dem Quellcode
+
+
+********************************************************************************************
+
+
+
+Create a Gradle project that contains the SumCalculator class with the int sum(int n) method. This method should return the sum of numbers from 1 to n inclusive.
+
+For example, calling sum(3) should return 6 (1 + 2 + 3).
+
+Write a test class for SumCalculator where you test the following behavior of the sum() method (each item in the list is a separate test):
+
+a call to sum(1) returns 1
+calling sum(3) returns 6
+call sum(0) throws an IllegalArgumentException
+Use the @BeforeEach annotated method to construct an object of the SumCalculator class before each test.
+
+Make sure that your code is run from the terminal by calling the gradle test command.
+
+The result of your homework is a Github repository with the source code.
